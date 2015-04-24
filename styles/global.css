@@ -149,7 +149,7 @@
   letter-spacing: 0px;
   text-transform: uppercase;
 }
-@nav-font-font-size: 14px;
+@nav-font-font-size: 18px;
 
 //tweak: { type: 'color', title: 'Navigation Link Color', target: '#navigation-top, #navigation-bottom', category: 'Navigation' }
 @navLinkColor: #CFCFCF;
@@ -828,7 +828,7 @@ body:not(.has-page-thumbnail) #page-header-wrapper, body:not(.page-thumbnail-as-
 }
 
 #page-body-wrapper {
-  padding-top: @pageSpacing;
+  padding-top: 0;
   padding-bottom: @pageSpacing;
 }
 #page-body {
