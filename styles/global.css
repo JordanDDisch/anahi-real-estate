@@ -392,7 +392,10 @@
 @vgrid: 24px;
 @gutter: 24px;
 
+<<<<<<< HEAD
 @sqsGridGutter: @gutter;
+=======
+>>>>>>> e0d2dd1ebdce6200c16d2d92a05baa7efc57177b
 @sqsGridNegateGutter: true;
 
 @pageWidth: @siteWidth + (@cnvsPadding / 2);

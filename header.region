@@ -10,6 +10,13 @@
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.section mainImage} has-page-thumbnail{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
 
+<<<<<<< HEAD
+=======
+		{.if template.mobileStylesEnabled}
+		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
+		{.end}
+
+>>>>>>> e0d2dd1ebdce6200c16d2d92a05baa7efc57177b
 	  <div id="canvas-wrapper">
 	  	<div id="canvas">
 
@@ -112,6 +119,8 @@
 
 				  </div>
 				</div><!-- page-header-wrapper -->
+
 		{.if template.mobileStylesEnabled}
 		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
 		{.end}
+
