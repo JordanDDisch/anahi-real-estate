@@ -10,6 +10,10 @@
   {.if template.mobileStylesEnabled}{.or}<!-- Mobile Styles Are Disabled -->{.end}
   <body class="{squarespace.page-classes}{.section website}{.if logoImageUrl} has-logo-image{.or} no-logo-image{.end}{.end}{.section collection}{.section mainImage} has-page-thumbnail{.end}{.end}" id="{squarespace.page-id}" ontouchstart="">
 
+		{.if template.mobileStylesEnabled}
+		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
+		{.end}
+
 	  <div id="canvas-wrapper">
 	  	<div id="canvas">
 
@@ -32,7 +36,6 @@
 									</div>
 					        {.end}
 
-					    		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
 				          {.if socialAccounts}
 			            <div id="sqs-social" data-content-field="connected-accounts">
 			              {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
@@ -112,6 +115,4 @@
 
 				  </div>
 				</div><!-- page-header-wrapper -->
-		{.if template.mobileStylesEnabled}
-        		<squarespace:navigation navigationId="mainNav" template="mobile-navigation" />
-        {.end}
+		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
