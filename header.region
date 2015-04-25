@@ -92,7 +92,7 @@
 				  </div>
 				</div><!-- page-header-wrapper -->
  				<div id="navigation-top">
-					<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
+					<div class="horizontal-navigation-bar spacer__none spacer-bottom__none clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
 
 						<!-- // logo or site title markup in nav area -->
 					  {.section website}
