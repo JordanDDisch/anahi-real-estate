@@ -32,7 +32,7 @@
 							</div>
 
 							<div id="page-body-footer" class="extra-wrapper">
-								<squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" label="{collection.title} Footer Content" />
+								<squarespace:block-field id="page-footer-{collection.id}" description="Page Footer" columns="12" label="Footer Content" />
 							</div>
 
 						</div>
