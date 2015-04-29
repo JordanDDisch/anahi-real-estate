@@ -1,3 +1,7 @@
 .sqs-add-to-cart-button-wrapper {
     display: none;
 }
+
+.squarespace-social-buttons.inline-style {
+    margin-left: 0;
+}
