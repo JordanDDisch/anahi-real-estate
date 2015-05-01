@@ -22,6 +22,14 @@
 
 					<!-- // logo or site title markup in nav area -->
 				  {.section website}
+				  {.if logoImageUrl}
+					  <div id="banner-wrapper" data-content-field="site-title">
+						<a href="/" rel="bookmark">
+							<img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" />
+							{.section siteTagLine}<p id="logo-tagline" class="logo-subtitle">{siteTagLine}</p>{.end}
+						  </a>
+					  </div>
+					{.or}
 						<squarespace:navigation navigationId="mainNav" template="main-navigation" />
 				  {.if socialAccounts}
 				<div id="sqs-social" data-content-field="connected-accounts">
