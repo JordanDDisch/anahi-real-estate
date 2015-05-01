@@ -1,8 +1,9 @@
-{.section items}
+f{.section items}
 <!--MOBILE-->
 <nav id="mobile-navigation">
   <span id="mobile-navigation-title">{.if website.siteTitle}{website.siteTitle}{.end}</span>
   <span id="mobile-navigation-label"></span>
+  <div>Social</div>
   <ul>
     {.repeated section @}
       <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
