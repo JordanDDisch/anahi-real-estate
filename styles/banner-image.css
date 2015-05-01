@@ -2,10 +2,11 @@
     display: block;
     font-size: 2rem;
     line-height: .9em;
+    padding-bottom: 1rem;
 }
 
 .page-title__background {
     display: inline-block;
-    padding: 0 1rem 1rem;
+    padding: 0 1rem;
     background: rgba(0, 0, 0, 0.8);
 }
