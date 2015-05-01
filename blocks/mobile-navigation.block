@@ -1,4 +1,4 @@
-f{.section items}
+{.section items}
 <!--MOBILE-->
 <nav id="mobile-navigation">
   <span id="mobile-navigation-title">{.if website.siteTitle}{website.siteTitle}{.end}</span>
