@@ -17,6 +17,21 @@
 
 	  <div id="canvas-wrapper">
 	  	<div id="canvas">
+			<div id="navigation-top">
+				<div class="horizontal-navigation-bar nav-font spacer__none spacer-bottom__none clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
+
+					<!-- // logo or site title markup in nav area -->
+				  {.section website}
+						<squarespace:navigation navigationId="mainNav" template="main-navigation" />
+				  {.if socialAccounts}
+				<div id="sqs-social" data-content-field="connected-accounts">
+				  {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
+				</div>
+				  {.end}
+				  {.end}
+
+				</div>
+			</div><!-- navigation-top -->
 
 
 				<div id="page-header-wrapper">
@@ -91,18 +106,3 @@
 
 				  </div>
 				</div><!-- page-header-wrapper -->
- 				<div id="navigation-top">
-					<div class="horizontal-navigation-bar nav-font spacer__none spacer-bottom__none clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
-
-						<!-- // logo or site title markup in nav area -->
-					  {.section website}
-							<squarespace:navigation navigationId="mainNav" template="main-navigation" />
-					  {.if socialAccounts}
-					<div id="sqs-social" data-content-field="connected-accounts">
-					  {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
-					</div>
-					  {.end}
-					  {.end}
-
-					</div>
-				</div><!-- navigation-top -->
