@@ -13,3 +13,11 @@
     right: 0;
     top: 0;
 }
+
+@media (min-width: 641px) {
+    .page-title__background {
+        display: inline-block;
+        padding: 0 1rem;
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
