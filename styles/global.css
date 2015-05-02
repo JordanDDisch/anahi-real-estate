@@ -485,7 +485,7 @@ p, ol, ul { font-size: (@body-font-font-size * @sidebarTextSize); }
 img { /*max-width: 100%;*/ }
 }
 
-#site-title, #page-title, #banner { margin-bottom: 0; position: relative; }
+#site-title, #banner { margin-bottom: 0; position: relative; }
 
 #page-footer {
 p, ul, ol { .footer-font; }
