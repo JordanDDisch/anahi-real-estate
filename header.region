@@ -21,6 +21,8 @@
 				<div id="page-header-wrapper">
 					<div id="page-header">
 
+					<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+
 				    <div id="navigation-top">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
 
@@ -32,7 +34,7 @@
 						      </div>
 					        {.or}
 									<div id="site-title-wrapper" data-content-field="site-title">
-										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+
 									</div>
 					        {.end}
 
