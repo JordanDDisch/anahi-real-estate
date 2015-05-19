@@ -78,7 +78,7 @@
 
 							<!-- // page title markup in banner area -->
 				      {.section collection}
-					      <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+					      <div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 				          <img src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-05-19+at+5.06.07+pm.png" class="banner-image__text" />
 				        </div>
 				      {.end}
