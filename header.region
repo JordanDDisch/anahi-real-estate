@@ -79,8 +79,7 @@
 							<!-- // page title markup in banner area -->
 				      {.section collection}
 					      <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-				          {.if title}<h1 id="page-title" class="page-title page-title__background">{title}</h1>{.end}
-				      		{.if description}<div id="page-description" class="page-description">{description}</div>{.end}
+				          <img src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-05-19+at+5.06.07+pm.png" class="banner-image__text" />
 				        </div>
 				      {.end}
 
