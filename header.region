@@ -47,20 +47,10 @@
 				    	</div>
 				    </div><!-- navigation-top -->
 
-						<div id="banner-area-wrapper">
-							<div id="banner-area">
-
-							<div class="banner-overlay"></div>
-
-							<!-- // page title markup in banner area -->
-				      {.section collection}
-					      <div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-				          <img width="" src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-05-19+at+5.06.07+pm.png" class="banner-image__text" />
-				        </div>
-				      {.end}
-
-				      </div>
-				    </div><!-- banner-area-wrapper -->
+					<!-- // page title markup in banner area -->
+					<div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+						<img width="" src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-05-19+at+5.06.07+pm.png" class="banner-image__text" />
+					</div>
 
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
