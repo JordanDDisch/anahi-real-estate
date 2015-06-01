@@ -7,8 +7,9 @@
 }
 
 .banner-image__wrapper {
+    z-index: 1000;
     position: absolute;
     width: 25%;
-    right: 0;
-    top: 0;
+    left: 70px;
+    top: 95px;
 }
