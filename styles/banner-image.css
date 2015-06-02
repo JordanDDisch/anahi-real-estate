@@ -9,9 +9,8 @@
 .banner-image__wrapper {
     z-index: 1000;
     position: absolute;
-    width: 25%;
-    left: 70px;
-    top: 95px;
+    width: 81%;
+    top: 32px;
 }
 
 .title-wrapper {
