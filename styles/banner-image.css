@@ -29,8 +29,7 @@
     .banner-image__wrapper {
         z-index: 1000;
         position: absolute;
-        width: 65%;
-        left: -3px;
-        top: 30px;
+        width: 19%;
+        left: 41%;
     }
 }
