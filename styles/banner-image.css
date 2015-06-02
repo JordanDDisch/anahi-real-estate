@@ -6,8 +6,9 @@
 .banner-image__wrapper {
     z-index: 1000;
     position: absolute;
-    width: 81%;
-    top: 32px;
+    width: 80%;
+    left: -4px;
+    top: 30px;
 }
 
 .title-wrapper {
