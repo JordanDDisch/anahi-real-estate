@@ -21,8 +21,8 @@
     .banner-image__wrapper {
         z-index: 1000;
         position: absolute;
-        width: 25%;
-        right: 0;
-        top: 95px;
+        width: 65%;
+        left: 0;
+        top: 30px;
     }
 }
