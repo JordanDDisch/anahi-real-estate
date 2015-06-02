@@ -24,3 +24,13 @@
         top: 30px;
     }
 }
+
+@media(max-width: 640px) {
+    .banner-image__wrapper {
+        z-index: 1000;
+        position: absolute;
+        width: 65%;
+        left: -3px;
+        top: 30px;
+    }
+}
