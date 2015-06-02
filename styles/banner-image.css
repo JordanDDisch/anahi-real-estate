@@ -13,3 +13,7 @@
     left: 70px;
     top: 95px;
 }
+
+.title-wrapper {
+    position: relative;
+}
