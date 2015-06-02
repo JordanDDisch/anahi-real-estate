@@ -17,3 +17,13 @@
 .title-wrapper {
     position: relative;
 }
+
+@media(max-width: 857px) {
+    .banner-image__wrapper {
+        z-index: 1000;
+        position: absolute;
+        width: 25%;
+        right: 0;
+        top: 95px;
+    }
+}
