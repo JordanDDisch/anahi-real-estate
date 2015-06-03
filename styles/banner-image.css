@@ -33,3 +33,9 @@
         left: 41%;
     }
 }
+
+/*  Forms  */
+
+#email-yui_3_17_2_1_1433248198188_28632-field {
+    display: none;
+}
