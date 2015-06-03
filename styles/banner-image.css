@@ -1,3 +1,7 @@
+.banner-image {
+    width: 100%;
+}
+
 .banner-image__text {
     color: black !important;
 }
