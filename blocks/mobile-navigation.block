@@ -3,7 +3,7 @@
 <nav id="mobile-navigation">
   <span id="mobile-navigation-title">{.if website.siteTitle}{website.siteTitle}{.end}
   <div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-    <img width="" src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-06-02+at+7.03.53+pm.png" class="banner-image__text" />
+    <img src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-06-02+at+7.03.53+pm.png" class="banner-image" />
   </div>
   </span>
   <span id="mobile-navigation-label"></span>
