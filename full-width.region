@@ -1,14 +1,12 @@
-			{.section collection}
-				<div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-				{.if title}<h1 id="page-title" class="page-title page-title__background">{title}</h1>{.end}
-				{.if description}<div id="page-description" class="page-description">{description}</div>{.end}
-				</div>
-	        {.end}
-
 			<div id="page-body-wrapper spacer-top__none" class="full-width spacer-top__none">
 
 				<div id="page-body">
-
+				{.section collection}
+                				<div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+                				{.if title}<h1 id="page-title" class="page-title page-title__background">{title}</h1>{.end}
+                				{.if description}<div id="page-description" class="page-description">{description}</div>{.end}
+                				</div>
+                	        {.end}
 					<div id="content-wrapper">
 						<div id="content">
 
