@@ -22,22 +22,22 @@
 					<div id="page-header">
 
 				    <div id="navigation-top">
-				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
+						<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
 
-				    		<!-- // logo or site title markup in nav area -->
-					      {.section website}
-					      	{.if logoImageUrl}
-						      <div id="banner-wrapper" data-content-field="site-title">
-						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
-						      </div>
-					        {.or}
-									<div id="site-title-wrapper" class="title-wrapper" data-content-field="site-title">
-										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
-										<div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-											<img width="" src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-06-02+at+7.03.53+pm.png" class="banner-image__text" />
-										</div>
+							<!-- // logo or site title markup in nav area -->
+						  {.section website}
+							{.if logoImageUrl}
+							  <div id="banner-wrapper" data-content-field="site-title">
+								<a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
+							  </div>
+							{.or}
+								<div id="site-title-wrapper" class="title-wrapper" data-content-field="site-title">
+									<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+									<div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+										<img width="" src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-06-02+at+7.03.53+pm.png" class="banner-image__text" />
 									</div>
-					        {.end}
+								</div>
+							{.end}
 
 					    		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
 				          {.if socialAccounts}
