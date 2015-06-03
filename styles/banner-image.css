@@ -35,7 +35,7 @@
 }
 
 /*  Forms  */
-.homepage form input {
+.homepage form > div > div > input {
     padding: .5rem;
 }
 
