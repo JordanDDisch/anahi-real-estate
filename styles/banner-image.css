@@ -36,9 +36,9 @@
 
 /*  Forms  */
 .homepage form input {
-    display: none;
+     padding: .5rem !important;
 }
 
 .homepage form div div {
-    margin-bottom: .5rem;
+    margin-bottom: .5rem !important;
 }
