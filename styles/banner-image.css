@@ -6,6 +6,18 @@
     color: black !important;
 }
 
+@media(max-width: 857px) {
+    .banner-image__text {
+        font-size: 3rem !important;
+    }
+}
+
+@media(max-width: 640px) {
+    .banner-image__text {
+        font-size: 1.5rem !important;
+    }
+}
+
 .banner-image__wrapper {
     z-index: 1000;
     position: absolute;
