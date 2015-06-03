@@ -17,6 +17,7 @@
 	  <div id="canvas-wrapper">
 	  	<div id="canvas">
 
+
 				<div id="page-header-wrapper">
 					<div id="page-header">
 
@@ -30,12 +31,9 @@
 						        <a href="/"><img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></a>
 						      </div>
 					        {.or}
-								<div id="site-title-wrapper" class="title-wrapper" data-content-field="site-title">
-									<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
-									<div id="page-title-wrapper" class="banner-image__wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-										<img width="" src="https://s3.amazonaws.com/anahi-vazquez/Screen+Shot+2015-06-02+at+7.03.53+pm.png" class="banner-image__text" />
+									<div id="site-title-wrapper" data-content-field="site-title">
+										<h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
 									</div>
-								</div>
 					        {.end}
 
 					    		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
@@ -49,7 +47,45 @@
 				    	</div>
 				    </div><!-- navigation-top -->
 
-					<!-- // page title markup in banner area -->
+						<div id="banner-area-wrapper">
+							<div id="banner-area">
+
+							<!-- // page thumbnail image as banner image -->
+							{.section collection}
+							{.section mainImage}
+								<div id="page-thumb" class="content-fill"><img {@|image-meta} /></div>
+							{.end}
+							{.end}
+
+							<div class="banner-overlay"></div>
+
+				      <!-- // logo or site title markup in banner area -->
+				      {.section website}
+				      	{.if logoImageUrl}
+					      <div id="banner-wrapper" data-content-field="site-title">
+					        <a href="/" rel="bookmark">
+					        	<img id="banner" src="{logoImageUrl}?format=1500w" alt="{siteTitle}" />
+						        {.section siteTagLine}<p id="logo-tagline" class="logo-subtitle">{siteTagLine}</p>{.end}
+						      </a>
+					      </div>
+				        {.or}
+					      <div id="site-title-wrapper" class="js-text-shrink" data-content-field="site-title">
+				          <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
+				          {.section siteTagLine}<p id="site-tagline" class="site-subtitle">{siteTagLine}</p>{.end}
+				        </div>
+				        {.end}
+				      {.end}
+
+							<!-- // page title markup in banner area -->
+				      {.section collection}
+					      <div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+				          {.if title}<h1 id="page-title" class="page-title page-title__background">{title}</h1>{.end}
+				      		{.if description}<div id="page-description" class="page-description">{description}</div>{.end}
+				        </div>
+				      {.end}
+
+				      </div>
+				    </div><!-- banner-area-wrapper -->
 
 				    <div id="navigation-bottom">
 				    	<div class="horizontal-navigation-bar clear{.section website}{.if logoImageUrl} with-logo{.or} with-title{.end}{.end}">
