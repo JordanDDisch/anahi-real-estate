@@ -35,7 +35,10 @@
 }
 
 /*  Forms  */
+.homepage form input {
+    padding: .5rem;
+}
 
-#email-yui_3_17_2_1_1433248198188_28632-field {
-    
+.homepage form div div {
+    margin-bottom: .5rem;
 }
