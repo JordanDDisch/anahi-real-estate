@@ -39,6 +39,10 @@
      padding: .5rem !important;
 }
 
+.homepage form textarea {
+    min-height: 20% !important;
+}
+
 .homepage form div div {
     margin-bottom: .5rem !important;
 }
