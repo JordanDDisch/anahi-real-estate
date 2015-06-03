@@ -16,7 +16,7 @@
 
 	  <div id="canvas-wrapper">
 	  	<div id="canvas">
-
+		 <h1 id="site-title" class="page-title"><a href="/" rel="bookmark">{siteTitle}</a></h1>
 
 				<div id="page-header-wrapper">
 					<div id="page-header">
