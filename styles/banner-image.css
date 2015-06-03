@@ -35,8 +35,8 @@
 }
 
 /*  Forms  */
-.homepage form input {
-    padding: .5rem;
+.homepage form {
+    display: none;  
 }
 
 .homepage form div div {
