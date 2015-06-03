@@ -14,7 +14,7 @@
 
 @media(max-width: 640px) {
     .banner-image__text {
-        font-size: 1.5rem !important;
+        font-size: 3rem !important;
     }
 }
 
