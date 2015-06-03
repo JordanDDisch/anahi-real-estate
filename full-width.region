@@ -28,7 +28,7 @@
 					    <div class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 								{.section collection}
 									<div id="page-title-wrapper" class="js-text-shrink" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-									{.if title}<h1 id="page-title" class="page-title page-title__background">{title}</h1>{.end}
+									{.if title}<h1 id="page-title" class="page-title page-title__background banner-image__text">{title}</h1>{.end}
 									{.if description}<div id="page-description" class="page-description">{description}</div>{.end}
 									</div>
 								{.end}
